@@ -2,15 +2,15 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather';
-  color: #40514E;
-  background-color: #F7F9FC;
+  color: #5A5958;
+  background-color: #e5e5e5;
 }
  img {
   border-radius: 50px;
  }
 
 h1 {
-  color: #66BFBF;
+  color: #A09F9D;
   margin: 50px auto 0;
   font-family: 'Montserrat' , sans-serif;
   font-size: 1.5em;
@@ -18,7 +18,6 @@ h1 {
 }
 
 h2 {
-  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -33,13 +32,13 @@ p {
 
 hr {
   border-style: none;
-  border-top: 10px dotted #EAF6F6;
-  width: 100px;
+  border-top: 2px dotted #A6463C;
+  width: 50px;
   margin: 20px auto;
 }
 
 a {
-  color: #11999E;
+  color: #A6463C;
   font-size: 1.5em;
   
   font-family: 'Montserrat' , sans-serif;
@@ -48,7 +47,7 @@ a {
 }
 
 a:hover {
-  color: #3cb0fd;
+  color: #D34A45;
 }
 
 ul {
@@ -61,7 +60,7 @@ li {
 }
 
 .btn {
-  background: #66BFBF;
+  background: #A6463C;
   border-radius: 10px;
   font-family: Montserrat;
   color: #ffffff;
@@ -70,7 +69,7 @@ li {
 }
 
 .btn:hover {
-  background: #3cb0fd;
+  background: #D34A45;
   color: #ffffff;
 
 }
@@ -84,7 +83,7 @@ li {
 }
 .home-card {
   text-align: center;
-  background: white;
+  background: #ffffff;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
   border-radius: 4px;
   padding: 30px;
