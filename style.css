@@ -122,7 +122,8 @@ body {
  .avatar {
   mix-blend-mode:normal;
   border-radius: 80px;
-  filter: drop-shadow(4px 4px 4px #bebebe);
+  filter: drop-shadow(-2px -2px -2px #ffffff);
+  filter: drop-shadow(2px 2px 2px #bebebe);
   box-shadow:  10px 10px 20px #bebebe,
                -10px -10px 20px #ffffff;
 }
