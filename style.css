@@ -121,11 +121,38 @@ body {
 
  .avatar {
   mix-blend-mode:normal;
-  border-radius: 80px;
+  border-radius: 50%;
   filter: drop-shadow(-2px -2px -2px #ffffff);
   filter: drop-shadow(2px 2px 2px #bebebe);
   box-shadow:  10px 10px 20px #bebebe,
                -10px -10px 20px #ffffff;
+}
+
+.icon {
+    width: 50%;  
+    padding: 10%;
+    margin-bottom:  20%;
+    mix-blend-mode:normal;
+    border-radius: 50%;
+    filter: drop-shadow(-2px -2px -2px #ffffff);
+    filter: drop-shadow(2px 2px 2px #bebebe);
+    box-shadow:  10px 10px 20px #bebebe,
+                 -10px -10px 20px #ffffff;
+}
+.card {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  background: white;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 10px;
+  padding-top: 20px ;
+  border: none;
+  margin: 20px 20px;
+}
+
+.card-card {
+
 }
 
 h1 {
@@ -145,14 +172,23 @@ h2 {
   margin: 1em auto 1em;
 }
 
+h3 {
+  color: #002300;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 0.8em;
+  line-height: 2;
+  margin: 1em auto 1em;
+}
+
 p {
   line-height: 2;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 hr {
   border-style: none;
-  border-top: 10px dotted #002300;
+  border-top: 5px dotted #002300;
   width: 100px;
   margin: 10px auto;
 }
@@ -171,7 +207,7 @@ a:hover {
 }
 
 ul {
-  padding: 0;
+  padding: 30px 0;
 }
 
 li {
@@ -201,7 +237,7 @@ li {
   text-align: center;
   background: white;
   box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
+  border-radius: 30px;
   padding: 30px;
   border: none;
   margin: 20px 0px;
@@ -212,12 +248,30 @@ li {
     top: 300%;
     width: 700px;
   }
+  .card {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 20%;
+    margin-bottom: 10%;
+  }
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
     top: 150%;
     width: 600px;
+  }
+  .card {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 20%;
+    margin-bottom: 10%;
   }
 }
 @media (max-width: 720px) {
@@ -226,11 +280,30 @@ li {
     top: 100%;
     width: 500px;
   }
+  .card {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 20%;
+    margin-bottom: 10%;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
   .container {
     top: 80%;
     width: 300px;
+    margin: 0 auto;
+  }
+  .card {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .icon {
+    width: 20%;
+    margin-bottom: 10%;
   }
 }
