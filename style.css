@@ -1,13 +1,121 @@
+html {
+overflow: hidden;
+}
+
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather';
   color: #40514E;
-  background-color: #F7F9FC;
+  background-color: #050d05;
 }
- img {
+
+.parallax_container { 
+  perspective: 1px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  transform-style: preserve-3d;
+  height: 100%;
+  margin: 0 auto;
+}
+.parallax {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
+.parallax img {
+  width: 100%; 
+  object-fit: contain;  
+}
+
+.container {
+  top: 300%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 600px; 
+  position: absolute;
+  z-index: 11;
+}
+
+.background {
+  z-index: 1;
+  top: 400%;
+  background-color: #050d05;
+  margin-top: 100;
+  transform-style: preserve-3d;
+  transform: translateZ(-1px) scale(2);
+}
+
+.sky_1 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-9px) scale(10);
+}
+
+.moon_2 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-8px) scale(9);
+}
+
+.clouds_3 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-7px) scale(8);
+}
+
+.birds_4 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-6px) scale(7);
+}
+
+.trees_inside_5 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-5px) scale(6);
+}
+
+.trees_inside_6 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-4px) scale(5);
+}
+
+.profile_cover_7 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-3px) scale(4);
+}
+
+.trees_outside_8 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-2px) scale(3);
+}
+
+.trees_outside_9 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-1px) scale(2);
+}
+
+.profile_10 {
+  z-index: 2;
+  transform-style: preserve-3d;
+  transform: translateZ(-3px) scale(4);
+}
+
+
+ /* img {
   border-radius: 50px;
- }
+ } */
 
 h1 {
   color: #66BFBF;
@@ -75,10 +183,6 @@ li {
 
 }
 
-.container {
-  width: 700px;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
-}
 #home-page-first-image {
   border-radius: 50%;
 }
@@ -90,23 +194,4 @@ li {
   padding: 30px;
   border: none;
   margin: 20px 0px;
-}
-
-@media (max-width: 960px) {
-  /* For a screen < 960px, this CSS will be read */
-  .container {
-    width: 700px;
-  }
-}
-@media (max-width: 720px) {
-  /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
-  }
-}
-@media (max-width: 540px) {
-  /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
-  }
 }
