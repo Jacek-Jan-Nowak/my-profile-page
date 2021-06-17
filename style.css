@@ -322,4 +322,10 @@ li {
   .hi {
     top: 0%;
   }
+  .btn {
+    margin: 10px 0;
+    padding 10px 0;
+
+  }
 }
+
