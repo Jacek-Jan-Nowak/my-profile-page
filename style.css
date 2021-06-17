@@ -6,7 +6,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather';
-  color: #b6b69c;
+  color: #040d06;
   background-color: #050d05;
 }
 
@@ -122,10 +122,10 @@ body {
  .avatar {
   mix-blend-mode:normal;
   border-radius: 50%;
-  filter: drop-shadow(-2px -2px -2px #06150a);
-  filter: drop-shadow(2px 2px 2px #020502);
-  box-shadow:  5px 5px 10px #020502,
-               -5px -5px 10px #06150a;
+  filter: drop-shadow(-2px -2px -2px #fffffa);
+  filter: drop-shadow(2px 2px 2px #49493e);
+  box-shadow:  5px 5px 10px #49493e,
+               -5px -5px 10px #fffffa;
 }
 
 .icon {
@@ -134,19 +134,19 @@ body {
     margin-bottom:  20%;
     mix-blend-mode:normal;
     border-radius: 50%;
-    filter: drop-shadow(-2px -2px -2px #06150a);
-    filter: drop-shadow(2px 2px 2px #020502);
-    box-shadow:  5px 5px 10px #020502,
-    -5px -5px 10px #06150a;
+    filter: drop-shadow(-2px -2px -2px #fffffa);
+    filter: drop-shadow(2px 2px 2px #49493e);
+    box-shadow:  5px 5px 10px #49493e,
+    -5px -5px 10px #fffffa;
 }
 .card {
   width: 20%;
   display: inline-block;
   text-align: center;
   border-radius: 20px;
-  background: linear-gradient(145deg, #040c05, #040e06);
-  box-shadow:  8px 8px 18px #020502,
-               -8px -8px 18px #06150a;
+  background: linear-gradient(145deg, #c3c3a7, #a4a48c);
+  box-shadow:  8px 8px 16px #49493e,
+               -8px -8px 16px #fffffa;
   padding-top: 20px ;
   border: none;
   margin: 20px 20px;
@@ -165,7 +165,6 @@ h1 {
 }
 
 h2 {
-  color: #b6b69c;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 1em;
@@ -174,7 +173,6 @@ h2 {
 }
 
 h3 {
-  color: #b6b69c;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-size: 0.8em;
@@ -189,22 +187,23 @@ p {
 
 hr {
   border-style: none;
-  border-top: 5px dotted #b6b69c;
+  border-top: 5px dotted #050d05;
   width: 100px;
   margin: 10px auto;
 }
 
 a {
-  color: #b6b69c;
+  color: #050d05;
   font-size: 1.5em;
-  
   font-family: 'Montserrat' , sans-serif;
   text-decoration: none;
 
 }
 
 a:hover {
-  color: #569d4c;
+  color: #103b15;
+  box-shadow: inset 12px 12px 24px #49493e,
+            inset -12px -12px 24px #fffffa;
 }
 
 ul {
@@ -218,21 +217,19 @@ li {
 
 .btn {
   border-radius: 20%;
-  background: linear-gradient(145deg, #040c05, #040e06);
-  box-shadow:  8px 8px 16px #020502,
-               -8px -8px 16px #06150a;
+  background: linear-gradient(145deg, #c3c3a7, #a4a48c);
+  box-shadow:  8px 8px 16px #49493e,
+               -8px -8px 16px #fffffa;
   font-family: Montserrat;
-  color: #b6b69c;
   font-size: 20px;
   padding: 10px;
   margin: auto 20px;
 }
 
 .btn:hover {
-  background: #040d06;
-  box-shadow: inset 12px 12px 24px #020502,
-              inset -12px -12px 24px #06150a;
-  color: #b6b69c;
+  box-shadow: inset 8px 8px 16px #49493e,
+  inset -8px -8px 16px #fffffa;
+  color: #103b15;
 
 }
 
@@ -242,7 +239,7 @@ li {
 .home-card {
   text-align: center;
   border-radius: 30px;
-  background: linear-gradient(145deg, #040c05, #040e06);
+  background: linear-gradient(145deg, #c3c3a7, #a4a48c);
   box-shadow:  12px 12px 24px #020502,
                -12px -12px 24px #06150a;
   padding: 30px;
@@ -264,6 +261,9 @@ li {
     width: 20%;
     margin-bottom: 10%;
   }
+  .hi {
+    top: 10%;
+  }
 }
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
@@ -279,6 +279,9 @@ li {
   .icon {
     width: 20%;
     margin-bottom: 10%;
+  }
+  .hi {
+    top: 0%;
   }
 }
 @media (max-width: 720px) {
@@ -296,6 +299,9 @@ li {
     width: 20%;
     margin-bottom: 10%;
   }
+  .hi {
+    top: 0%;
+  }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
@@ -312,5 +318,8 @@ li {
   .icon {
     width: 20%;
     margin-bottom: 10%;
+  }
+  .hi {
+    top: 0%;
   }
 }
