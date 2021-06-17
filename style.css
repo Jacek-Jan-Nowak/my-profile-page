@@ -145,8 +145,8 @@ body {
   text-align: center;
   border-radius: 20px;
   background: linear-gradient(145deg, #c3c3a7, #a4a48c);
-  box-shadow:  8px 8px 16px #49493e,
-               -8px -8px 16px #fffffa;
+  box-shadow:  4px 4px 8px #49493e,
+               -4px -4px 8px #fffffa;
   padding-top: 20px ;
   border: none;
   margin: 20px 20px;
@@ -218,8 +218,8 @@ li {
 .btn {
   border-radius: 20%;
   background: linear-gradient(145deg, #c3c3a7, #a4a48c);
-  box-shadow:  8px 8px 16px #49493e,
-               -8px -8px 16px #fffffa;
+  box-shadow:  4px 4px 8px #49493e,
+               -4px -4px 8px #fffffa;
   font-family: Montserrat;
   font-size: 20px;
   padding: 10px;
